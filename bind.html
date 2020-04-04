@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bind.css">
+  <link rel="stylesheet" href="./css/base.css">
+
+  <script src="./js/flexible.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- 顶部标题 -->
+    <div class="common-top">
+      <h1>我的银行卡</h1>
+      <a href="javascript:void(0)" class="back" onclick="history.back();"></a>
+    </div>
+
+    <!-- 设置银行等内容 -->
+    <form action="" method="POST" class="bind-form">
+      <div class="bind-column">
+        <label for="card">银行卡</label>
+        <input type="text" name="card" id="card" placeholder="请输入银行卡">
+      </div>
+      <div class="bind-column">
+        <label for="address">开户行地址</label>
+        <input type="text" id="address" name="address" placeholder="请输入开户行地址">
+      </div>
+      <button class="submit-btn">确定上传</button>
+    </form>
+
+    <!-- 提示 -->
+    <p class="tips">该卡可作为快捷支付及提现使用，暂不支持在线换卡，如若需要换卡 请致电客服</p>
+  </div>
+</body>
+
+</html>

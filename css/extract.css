@@ -1,0 +1,30 @@
+body,html{
+  height: 100%;
+}
+.common-top {
+  margin-bottom: .361446rem /* 30/83 */;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #0d0f1b;
+}
+.password-column {
+  text-align: center;
+  height: 1.204819rem /* 100/83 */;
+  background-color: #151724;
+}
+.password-column input {
+  vertical-align: top;
+  background-color: transparent;
+  width: 70%;
+  height: 100%;
+  line-height: 1.204819rem /* 100/83 */;
+  text-align: center;
+  font-size: .361446rem /* 30/83 */;
+  color: #fff;
+}
+.password-column input::-webkit-input-placeholder {
+  color: #fff;
+}

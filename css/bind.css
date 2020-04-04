@@ -1,0 +1,49 @@
+body,html{
+  height: 100%;
+}
+.common-top {
+  margin-bottom: .361446rem /* 30/83 */;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #0d0f1b;
+}
+
+.bind-column {
+  position: relative;
+  height: 1.024096rem /* 85/83 */;
+  background-color: #151724;
+}
+.bind-column label {
+  position: absolute;
+  left: .506024rem /* 42/83 */;
+  font-size: .433735rem /* 36/83 */;
+  line-height: 1.024096rem /* 85/83 */;
+  color: #fff;
+}
+
+.bind-column input {
+  margin-left: 3.73494rem /* 310/83 */;
+  margin-top: .313253rem /* 26/83 */;
+  vertical-align: top;
+  width: 5.421687rem /* 450/83 */;
+  box-sizing: border-box;
+  height: .433735rem /* 36/83 */;
+  line-height: .433735rem /* 36/83 */;
+  font-size: .277108rem /* 23/83 */;
+  color: #babbbc;
+  background-color: transparent;
+}
+.bind-form .submit-btn {
+  margin-top: 1.385542rem /* 115/83 */;
+}
+
+/* 提示 */
+.tips {
+  margin-top: .409639rem /* 34/83 */;
+ padding: 0 55px;
+ font-size: .289157rem /* 24/83 */;
+ color: #fff;
+}

@@ -1,0 +1,130 @@
+body,html{
+  height: 100%;
+}
+.common-top {
+  margin-bottom: .361446rem /* 30/83 */;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #0d0f1b;
+
+}
+.container .common-top {
+  margin-bottom: 0;
+  background-color: #151724;
+}
+/* 顶部标题 */
+.company-title {
+  margin: .192771rem /* 16/83 */ 0;
+  height: 1.024096rem /* 85/83 */;
+  line-height: 1.024096rem /* 85/83 */;
+  font-size: .433735rem /* 36/83 */;
+  text-align: center;
+  background-color: #151724;
+  color: #fff;
+}
+
+
+.rising-trend {
+  color: #EF3A58;
+}
+
+.decline-trend {
+  color: #19FFC9;
+}
+/* 数值 */
+.exponent {
+  background-color: #151724;
+}
+.exponent-top{
+  padding-top: .060241rem /* 5/83 */;
+}
+.exponent-top-num {
+  text-align: center;
+  line-height: .722892rem /* 60/83 */;
+  font-size: .433735rem /* 36/83 */;
+}
+.exponent-top-trend {
+  height: .843373rem /* 70/83 */;
+  font-size: .289157rem /* 24/83 */;
+  text-align: center;
+}
+.exponent-top-trend i {
+  margin: 0 .361446rem /* 30/83 */;
+}
+.exponent-center {
+  display: flex;
+  padding-bottom: .421687rem /* 35/83 */;
+  border-bottom: 1px solid #2d2f3a;
+}
+.exponent-center .exponent-center-item {
+  font-size: .289157rem /* 24/83 */;
+  text-align: center;
+  flex: 1;
+}
+.exponent-center .exponent-center-item .value {
+  color: #fff;
+}
+.exponent-center .exponent-center-item .label {
+  color: #cdcdcf;
+}
+.exponent-bottom {
+  padding-bottom: .60241rem /* 50/83 */;
+  overflow: hidden;
+}
+.exponent-bottom .exponent-bottom-item {
+  margin-top: .337349rem /* 28/83 */;
+  display: flex;
+}
+.exponent-bottom .exponent-bottom-item > div {
+  text-align: center;
+  font-size: .289157rem /* 24/83 */;
+  color: #cdcdcf;
+  flex: 1;
+}
+.exponent-bottom-item .val {
+  margin-left: .337349rem /* 28/83 */;
+}
+
+/* tab模块 */
+.tab {
+  margin-top: .084337rem /* 7/83 */;
+  background-color: #151724;
+}
+.tab .tab-hd {
+  display: flex;
+  height: .903614rem /* 75/83 */;
+}
+.tab .tab-hd a {
+  flex: 1;
+  display: inline-block;
+  line-height: .903614rem /* 75/83 */;
+  text-align: center;
+  font-size: .361446rem /* 30/83 */;
+  color: #fff;
+}
+.tab .tab-hd a.current {
+  color: #fde37a;
+}
+.tab .tab-hd a.current span {
+  padding-bottom: .216867rem /* 18/83 */;
+  border-bottom: .024096rem /* 2/83 */ solid #fde37a;
+}
+.tab .tab-bd { }
+.tab .tab-bd li { 
+  display: none;
+}
+.tab .tab-bd li.current { 
+  display: block;
+}
+
+.nothing {
+  padding: .409639rem /* 34/83 */ 0 .722892rem /* 60/83 */;
+  text-align: center;
+}
+.nothing .nothing-img{
+  width: 2.361446rem /* 196/83 */;
+  height: 2.349398rem /* 195/83 */;
+}

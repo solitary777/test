@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/balance.css">
+  <link rel="stylesheet" href="./css/base.css">
+
+  <script src="./js/flexible.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- 顶部标题 -->
+    <div class="common-top">
+      <h1>我的账户</h1>
+      <a href="javascript:void(0)" class="back" onclick="history.back();"></a>
+    </div>
+
+    <!-- 顶部卡 -->
+    <div class="top-card">
+      <p class="card-title">总资产(cny)</p>
+      <div class="card-center">
+        <p class="balance-num">36,486.00</p>
+        <div class="balance-link">
+          <a href="#">提现</a>
+          <a href="#">充值</a>
+        </div>
+      </div>
+      <p class="tips">钱包中的资金需转入策略余额才能使用</p>
+    </div>
+
+    <!-- 余额 -->
+    <div class="balance">
+      <div class="balance-hd">
+        <div class="balance-hd-item">
+          <p class="balance-label">策略余额</p>
+          <p class="balance-num">0.00</p>
+        </div>
+        <div class="balance-hd-item">
+          <p class="balance-label">冻结信用金</p>
+          <p class="balance-num">0.00</p>
+        </div>
+      </div>
+      <div class="balance-bd">
+        <a href="#">转入</a>
+        <a href="#">转出</a>
+      </div>
+    </div>
+
+    <!-- 底部链接 -->
+    <div class="bottom-link">
+      <a href="#" class="link-item">
+        <p class="link-text">钱包流水</p>
+        <i class="link-icon"></i>
+      </a>
+      <a href="#" class="link-item">
+        <p class="link-text">策略交易流水</p>
+        <i class="link-icon"></i>
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

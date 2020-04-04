@@ -1,0 +1,172 @@
+body,html{
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #0d0f1b;
+}
+.container .common-top {
+  background-color: #171723;
+}
+
+/* 顶部卡 */
+.top-card {
+  padding-left: .60241rem /* 50/83 */;
+  box-sizing: border-box;
+  margin: .53012rem /* 44/83 */ auto .481928rem /* 40/83 */;
+  width: 8.048193rem /* 668/83 */;
+  height: 3.855422rem /* 320/83 */;
+  background: url('../images/balance_card_bg.png') no-repeat;
+  background-size: 100% 100%;
+}
+.top-card .card-title{
+  padding-top: .421687rem /* 35/83 */;
+  height:.325301rem /* 27/83 */;
+  font-size: .313253rem /* 26/83 */;
+  color:#fff;
+  line-height: .481928rem /* 40/83 */;
+}
+.top-card .card-center{
+  
+  overflow: hidden;
+  margin: .722892rem /* 60/83 */ 0 .481928rem /* 40/83 */;
+}
+.top-card .card-center .balance-num{
+  width: 4.698795rem /* 390/83 */;
+  float: left;
+  line-height: .722892rem /* 60/83 */;
+  font-size: .843373rem /* 70/83 */;
+  color: #fff;
+}
+.top-card .card-center .balance-link{
+  margin-right: .542169rem /* 45/83 */;
+  line-height: .722892rem /* 60/83 */;
+
+  float: right;
+}
+.top-card .card-center .balance-link a {
+  vertical-align: top;
+
+  line-height: .722892rem /* 60/83 */;
+
+  display: inline-block;
+  font-size: .385542rem /* 32/83 */;
+  color: #fff;
+}
+.top-card .card-center .balance-link a:nth-child(1) {
+  padding-right: .240964rem /* 20/83 */;
+  border-right: 1px solid #fff;
+}
+.top-card .card-center .balance-link a:nth-child(2) {
+  padding-left: .240964rem /* 20/83 */;
+}
+.top-card .tips{
+  font-size: .216867rem /* 18/83 */;
+  color: #fff;
+}
+
+/* 余额 */
+.balance {
+  padding: .180723rem /* 15/83 */ .506024rem /* 42/83 */;
+  box-sizing: border-box;
+  height: 2.168675rem /* 180/83 */;
+  background-color: #171727;
+}
+.balance .balance-hd {
+  padding: 0 ;
+  display: flex;
+}
+.balance .balance-hd > div {
+  flex: 1;
+}
+.balance .balance-hd-item .balance-label {
+  font-size: .313253rem /* 26/83 */;
+}
+.balance .balance-hd-item .balance-num {
+  margin-top: .036145rem /* 3/83 */;
+  font-size: .26506rem /* 22/83 */;
+}
+.balance .balance-hd-item:nth-child(1) .balance-label {
+  color: #fff;
+}
+.balance .balance-hd-item:nth-child(1) .balance-num {
+  color: #fff;
+}
+.balance .balance-hd-item:nth-child(2) .balance-label {
+  text-align: right;
+  color: #acacb8;
+}
+.balance .balance-hd-item:nth-child(2) .balance-num {
+  text-align: right;
+  color: #acacb8;
+}
+.balance .balance-bd {
+  display: flex;
+
+  position: relative;
+  margin-top: .240964rem /* 20/83 */;
+  border-radius: .120482rem /* 10/83 */;
+  width: 1.795181rem /* 149/83 */;
+  height: .53012rem /* 44/83 */;
+  line-height: .53012rem /* 44/83 */;
+  border: .024096rem /* 2/83 */ solid #c9888e;
+  -webkit-border-radius: .120482rem /* 10/83 */;
+  -moz-border-radius: .120482rem /* 10/83 */;
+  -ms-border-radius: .120482rem /* 10/83 */;
+  -o-border-radius: .120482rem /* 10/83 */;
+}
+.balance .balance-bd::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 1px;
+  height: .361446rem /* 30/83 */;
+  background-color: #c9888e;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+.balance .balance-bd a{
+  flex: 1;
+  text-align: center;
+  font-size: .240964rem /* 20/83 */;
+  color: #dc8177;
+}
+
+/* 底部链接 */
+.bottom-link {
+  margin-top: 1.084337rem /* 90/83 */;
+  margin-bottom: .963855rem /* 80/83 */;
+  background-color: #171727;
+}
+.bottom-link .link-item {
+  position: relative;
+  display: block;
+  padding: 0 0 0 .481928rem /* 40/83 */;
+  height: .843373rem /* 70/83 */;
+  line-height: .843373rem /* 70/83 */;
+}
+.bottom-link .link-item .link-text {
+  color: #fff;
+  font-size: .313253rem /* 26/83 */;
+}
+.bottom-link .link-item .link-icon {
+  position: absolute;
+  right: .481928rem /* 40/83 */;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+  width: .13253rem /* 11/83 */;
+  height: .228916rem /* 19/83 */;
+  background: url('../images/right_icon.png') no-repeat;
+  background-size: 100% 100%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}

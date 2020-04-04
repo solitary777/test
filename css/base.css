@@ -1,0 +1,248 @@
+/* 初始化 */
+body {
+  padding: 0;
+  margin: 0 auto;
+  font: .168675rem /* 14/83 *//1.5 "SourceHanSansCN-";
+  color: #3c3c3c;
+  min-width: 320px;
+  /* max-width: 830px; */
+  /* width: 10rem; */
+  background-color: #fff;
+}
+
+/* @media screen and (min-width: 830px) {
+  html {
+    font-size: 83px !important;
+  }
+}
+*/
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+blockquote,
+p,
+button,
+dl,
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: .192771rem /* 16/83 */;
+  font-weight: normal;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+i {
+  font-style: normal;
+}
+
+input,
+button {
+  outline: none;
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* 文字居中 */
+.tc {
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+/* 通用顶部 */
+.common-top {
+  position: relative;
+  height: 1.204819rem /* 100/83 */;
+  line-height: 1.204819rem /* 100/83 */;
+  text-align: center;
+  background-color: #0b0e1d;
+}
+.common-top h1{
+  letter-spacing: .024096rem /* 2/83 */;
+  font-size: .433735rem /* 36/83 */;
+  color: #fff;
+}
+.common-top .back{
+  position: absolute;
+  top: 50%;
+  left: .481928rem /* 40/83 */;
+  transform: translateY(-50%);
+  width: .313253rem /* 26/83 */;
+  height: .578313rem /* 48/83 */;
+  background: url('../images/left-icon.png') no-repeat;
+  background-size: 100% 100%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+/* 通用提交按钮 */
+.submit-btn {
+  text-align: center;
+  letter-spacing: .096386rem /* 8/83 */;
+  display: block;
+  border-radius: .361446rem /* 30/83 */;
+  margin: .963855rem /* 80/83 */ auto 0;
+  width: 5.638554rem /* 468/83 */;
+  height: .86747rem /* 72/83 */;
+  line-height: .86747rem /* 72/83 */;
+  background-color: #f9dd55;
+  color: #000;
+  font-size: .385542rem /* 32/83 */;
+  -webkit-border-radius: .361446rem /* 30/83 */;
+  -moz-border-radius: .361446rem /* 30/83 */;
+  -ms-border-radius: .361446rem /* 30/83 */;
+  -o-border-radius: .361446rem /* 30/83 */;
+}
+
+/* 通用底部bar */
+.tab-bar {
+  position: fixed;
+  z-index: 99;
+  left: 50%;
+  padding: .240964rem /* 20/83 */ 0;
+  bottom: 0;
+  min-width: 320px;
+  width: 100%;
+  /* max-width: 830px; */
+  /* width: 10rem; */
+  transform: translateX(-50%);
+  background-color: #010101;
+  display: flex;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.tab-bar-item {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+}
+/* 首页 */
+.tab-bar-item:nth-child(1) .icon {
+  width: 36px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-image: url('../images/tab_bar_home.png');
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.tab-bar-item:nth-child(1).active .icon {
+  background-image: url('../images/tab_bar_home_cur.png');
+}
+
+/* 行情 */
+.tab-bar-item:nth-child(2) .icon {
+  width: 36px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-image: url('../images/tab_bar_quotation.png');
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.tab-bar-item:nth-child(2).active .icon {
+  background-image: url('../images/tab_bar_quotation.png');
+}
+
+/* 交易 */
+.tab-bar-item:nth-child(3) .icon {
+  width: 36px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-image: url('../images/tab_bar_business.png');
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.tab-bar-item:nth-child(3).active .icon {
+  background-image: url('../images/tab_bar_business.png');
+}
+
+/* 我的 */
+.tab-bar-item:nth-child(4) .icon {
+  width: 36px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-image: url('../images/tab_bar_my.png');
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.tab-bar-item:nth-child(4).active .icon {
+  background-image: url('../images/tab_bar_my_cur.png');
+}
+
+
+

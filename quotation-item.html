@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/quotation-item.css">
+  <link rel="stylesheet" href="./css/base.css">
+
+  <script src="./js/flexible.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- 顶部标题 -->
+    <div class="common-top">
+      <h1>行 情</h1>
+      <a href="javascript:void(0)" class="back" onclick="history.back();"></a>
+    </div>
+
+    <!-- 公司名称 -->
+    <h2 class="company-title">美克家居600337</h2>
+
+    <!-- 数值 -->
+    <div class="exponent">
+      <div class="exponent-top">
+        <p class="exponent-top-num rising-trend">4.240</p>
+        <div class="exponent-top-trend decline-trend">
+          <i>-0.26</i>
+          <i>-5.78%</i>
+        </div>
+      </div>
+      <div class="exponent-center">
+        <div class="exponent-center-item">
+          <p class="value">4.200</p>
+          <p class="label">今开</p>
+        </div>
+        <div class="exponent-center-item">
+          <p class="value">4.500</p>
+          <p class="label">昨开</p>
+        </div>
+        <div class="exponent-center-item">
+          <p class="value">4359.76万</p>
+          <p class="label">成交量</p>
+        </div>
+        <div class="exponent-center-item">
+          <p class="value">75.09亿</p>
+          <p class="label">市值</p>
+        </div>
+      </div>
+      <div class="exponent-bottom">
+        <div class="exponent-bottom-item">
+          <div class="last">
+            <i class="last-label">最高</i>
+            <i class="last-value val">4.300</i>
+          </div>
+          <div class="price-limit">
+            <i class="price-limit-label">涨停价</i>
+            <i class="price-limit-value val">4.95</i>
+          </div>
+          <div class="ratio">
+            <i class="ratio-label">市盈率</i>
+            <i class="ratio-value val">16.50</i>
+          </div>
+        </div>
+        <div class="exponent-bottom-item">
+          <div class="last">
+            <i class="last-label">最低</i>
+            <i class="last-value val">4.110</i>
+          </div>
+          <div class="price-limit">
+            <i class="price-limit-label">跌停价</i>
+            <i class="price-limit-value val">4.05</i>
+          </div>
+          <div class="ratio">
+            <i class="ratio-label">市盈率</i>
+            <i class="ratio-value val">1.66</i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- tab模块 -->
+    <div class="tab">
+      <div class="tab-hd">
+        <a href="javascript:void(0)" class="current">
+          <span>分时</span>
+        </a>
+        <a href="javascript:void(0)">
+          <span>日k</span>
+        </a>
+        <a href="javascript:void(0)">
+          <span>周k</span>
+        </a>
+        <a href="javascript:void(0)">
+          <span>月k</span>
+        </a>
+      </div>
+      <ul class="tab-bd">
+        <li class="current">1
+          <div class="nothing">
+            <img class="nothing-img" src="./images/nothing-img.png" alt="暂无信息...">
+          </div>
+        </li>
+        <li>2
+          <div class="nothing">
+            <img class="nothing-img" src="./images/nothing-img.png" alt="暂无信息...">
+          </div>
+        </li>
+        <li>3
+          <div class="nothing">
+            <img class="nothing-img" src="./images/nothing-img.png" alt="暂无信息...">
+          </div>
+        </li>
+        <li>4
+          <div class="nothing">
+            <img class="nothing-img" src="./images/nothing-img.png" alt="暂无信息...">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="./js/tab.js"></script>
+  <script>
+    (function () {
+      // tab初始化
+      var tab = new Tab({
+        hdEle: document.querySelectorAll('.tab-hd > a'),
+        bdEle: document.querySelectorAll('.tab-bd > li')
+      })
+      tab.init();
+    })();
+  </script>
+</body>
+
+</html>

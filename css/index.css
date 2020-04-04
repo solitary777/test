@@ -1,0 +1,214 @@
+
+.container {
+  width: 100%;
+  background: #010101;
+}
+
+/* 顶部标题 */
+.top-title {
+  height: 1.108434rem /* 92/83 */;
+  line-height: 1.108434rem /* 92/83 */;
+  font-size: .433735rem /* 36/83 */;
+  text-align: center;
+  color: #fff;
+}
+.top-title h1{
+  font-size: .433735rem /* 36/83 */;
+}
+
+/* 广告banner */
+.banner {
+  height: 3.614458rem /* 300/83 */;
+  background: url('../images/home_banner.png') no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: .240964rem /* 20/83 */;
+}
+
+/* 指数 */
+.exponent {
+  padding: .481928rem /* 40/83 */ 0 ;
+  display: flex;
+  background-color: #0D0F1B;
+  margin-bottom: .168675rem /* 14/83 */;
+}
+
+.exponent-item {
+  flex: 1;
+  text-align: center;
+}
+
+.exponent-item .exponent-item-title {
+  color: #fff;
+  font-size: .337349rem /* 28/83 */;
+}
+
+.exponent-item-num {
+  position: relative;
+  line-height: .662651rem /* 55/83 */;
+  font-size: .433735rem /* 36/83 */;
+}
+.exponent-item-num .icon {
+  display: inline-block;
+  margin-left: .120482rem /* 10/83 */;
+  width: .192771rem /* 16/83 */;
+  height: .228916rem /* 19/83 */;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.rising-trend {
+  color: #EF3A58;
+}
+.rising-trend i.icon {
+  background-image: url("../images/home_up_icon.png");
+}
+
+.decline-trend {
+  color: #19FFC9;
+}
+.decline-trend i.icon {
+  background-image: url("../images/home_down_icon.png");
+}
+
+
+.exponent-item-trend {
+  font-size: .301205rem /* 25/83 */;
+}
+
+.exponent-item-trend i {
+  margin: 0 .024096rem /* 2/83 */;
+}
+
+/* 功能层 */
+.assembly-tool {
+  position: relative;
+  overflow: hidden;
+}
+
+.assembly-tool-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: .144578rem /* 12/83 */;
+  height: 100%;
+  background-color: #010101;
+  z-index: 12;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.assembly-tool-item {
+  position: relative;
+  padding: .481928rem /* 40/83 */ 0;
+  display: block;
+  width: 50%;
+  float: left;
+  background-color: #151723;
+  margin-bottom: .144578rem /* 12/83 */;
+  text-align: center;
+}
+
+.assembly-tool-item img {
+  width: 3.807229rem /* 316/83 */;
+  height: .771084rem /* 64/83 */;
+}
+
+/* 排行 */
+.ranking {
+  background-color: #151723;
+  padding-bottom: 1.686747rem /* 140/83 */;
+}
+
+.ranking-hd {
+  display: flex;
+  height: 1.084337rem /* 90/83 */;
+}
+
+.ranking-hd a {
+  display: inline-block;
+  color: #fff;
+  font-size: .313253rem /* 26/83 */;
+  flex: 1;
+  text-align: center;
+  line-height: 1.084337rem /* 90/83 */;
+}
+
+.ranking-hd a.current span {
+  padding: 0 .048193rem /* 4/83 */;
+  padding-bottom: .192771rem /* 16/83 */;
+  border-bottom: .024096rem /* 2/83 */ solid #f7da50;
+  color: #f7da50;
+}
+
+.ranking-bd ul {
+  display: none;
+}
+
+.ranking-bd ul.current {
+  display: block;
+}
+
+.ranking-bd-item {
+  border-bottom: .024096rem /* 2/83 */ solid #1f212d;
+  padding: .313253rem /* 26/83 */ 0;
+  display: flex;
+  background-color: #151723;
+
+}
+
+.ranking-bd-item>div {
+  text-align: center;
+  flex: 1;
+}
+
+.holder-info {
+  font-size: .337349rem /* 28/83 */ ;
+
+  color: #fff;
+}
+
+.corporate-info {}
+
+.corporate-info .corporate-name {
+  font-size: .337349rem /* 28/83 */;
+  color: #fff;
+}
+
+.corporate-info .corporate-num {
+  margin-top: .072289rem /* 6/83 */;
+  font-size: .313253rem /* 26/83 */;
+  color: #888AA0;
+}
+
+.profit-info {}
+
+.profit-info .profit-title {
+  font-size: .337349rem /* 28/83 */;
+  color: #fff;
+}
+
+.profit-info .profit-num {
+  margin-top: .072289rem /* 6/83 */;
+  font-size: .313253rem /* 26/83 */;
+  color: #FDD921;
+}
+
+.buy-button {}
+
+.buy-button .buy-btn {
+  display: block;
+  margin: .240964rem /* 20/83 */ auto 0;
+  width: 1.566265rem /* 130/83 */;
+  height: .650602rem /* 54/83 */;
+  line-height: .650602rem /* 54/83 */;
+  background-color: #FF335B;
+  font-size: .277108rem /* 23/83 */;
+  color: #fff;
+  border-radius: .216867rem /* 18/83 */;
+  -webkit-border-radius: .216867rem /* 18/83 */;
+  -moz-border-radius: .216867rem /* 18/83 */;
+  -ms-border-radius: .216867rem /* 18/83 */;
+  -o-border-radius: .216867rem /* 18/83 */;
+}

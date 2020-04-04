@@ -1,0 +1,107 @@
+body,html{
+  height: 100%;
+}
+.common-top {
+  margin-bottom: .168675rem /* 14/83 */;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #0d0f1b;
+}
+.banner {
+  background: #0d0f1b url('../images/login-bg.png') no-repeat;
+  background-size: 100%;
+  height: 7.771084rem /* 645/83 */;
+}
+.login-form {
+  padding: 0 .783133rem /* 65/83 */;
+}
+.wrap {
+  position: relative;
+}
+.line {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 7.927711rem /* 658/83 */;
+  transform: translate3d(-50%, -50%, 0);
+  height: 1px;
+  background-color: #383a45;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+}
+.login-item {
+  padding: 0 .192771rem /* 16/83 */;
+  position: relative;
+  height: 1.590361rem /* 132/83 */;
+  background-color: #151724;
+  color: #dbdbdc;
+}
+.login-item .icon {
+  position: absolute;
+  left: .60241rem /* 50/83 */;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.phone-icon {
+  width: .433735rem /* 36/83 */;
+  height: .662651rem /* 55/83 */;
+  background: url('../images/login_phone_icon.png') no-repeat;
+  background-size: 100% 100%;
+}
+.password-icon {
+  width: .481928rem /* 40/83 */;
+  height: .542169rem /* 45/83 */;
+  background: url('../images/login_password_icon.png') no-repeat;
+  background-size: 100% 100%;
+}
+.login-item input {
+  width: 6.024096rem /* 500/83 */;
+  margin-top: .493976rem /* 41/83 */;
+  padding-left: 1.373494rem /* 114/83 */;
+  height: .60241rem /* 50/83 */;
+  line-height: .60241rem /* 50/83 */;
+  font-size: .301205rem /* 25/83 */;
+  background-color: transparent;
+  color: #c8c8c8;
+}
+.login-item input::-webkit-input-placeholder{
+  color: #c8c8c8;
+}
+
+.login-form .submit-btn {
+  border-radius: .481928rem /* 40/83 */;
+  margin-top: 1.650602rem /* 137/83 */;
+  -webkit-border-radius: .481928rem /* 40/83 */;
+  -moz-border-radius: .481928rem /* 40/83 */;
+  -ms-border-radius: .481928rem /* 40/83 */;
+  -o-border-radius: .481928rem /* 40/83 */;
+}
+.link {
+  margin-top: .60241rem /* 50/83 */;
+  padding-bottom: 1.53012rem /* 127/83 */;
+  text-align: center;
+}
+.link a {
+  font-size: .289157rem /* 24/83 */;
+}
+.link .register {
+  color: #fff;
+}
+.link span {
+  font-size: .361446rem /* 30/83 */;
+  margin: 0 .518072rem /* 43/83 */;
+  color: #fff;
+}
+.link .forget-pwd {
+  color: #e50b15;
+}
